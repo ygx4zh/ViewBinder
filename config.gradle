@@ -1,0 +1,9 @@
+ext.deps = [
+    // deps.android.runtime
+    android: [
+        'runtime' : 'com.google.android:android:4.1.1.4'
+    ],
+    androidx: [
+            'annotations': "androidx.annotation:annotation:1.0.0"
+    ]
+]

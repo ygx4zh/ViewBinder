@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // compileOnly 'android.support:annotation:28.0.0'
+    compileOnly 'androidx.annotation:annotation:1.1.0'
+    // implementation project(path: ':Binder_Tools')
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
